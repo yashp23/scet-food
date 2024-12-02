@@ -35,6 +35,7 @@ export default function FoodEditPage() {
     });
   }, [foodId]);
 
+  
   const submit = async foodData => {
     const food = { ...foodData, imageUrl };
 
